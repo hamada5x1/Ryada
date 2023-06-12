@@ -19,8 +19,6 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddScoped<IBaseService, BaseService>();
-builder.Services.AddScoped<IFileUploadService, FileUploadService>();
-builder.Services.AddScoped<ICompaniesRepository, CompaniesRepository>();
 
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<IEventCategoryService, EventCategoryService>();
